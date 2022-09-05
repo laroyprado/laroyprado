@@ -2,6 +2,11 @@
 
 I'm a brazilian student, studiyng database at [Fatec São José Dos Campos - SP](https://fatecsjc-prd.azurewebsites.net/)
 
+I'm currently studying 
+
+![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
+
+
 <div align="center">
   <a href="https://github.com/laroyprado">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=laroyprado&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
@@ -9,11 +14,11 @@ I'm a brazilian student, studiyng database at [Fatec São José Dos Campos - SP]
 </div>
 <div style="display: inline_block"><br>
   
-  <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+ 
   
 </div>
   
-  ##
+  #### 👨🏻‍💻 Follow me too:
   
   <div> 
  
