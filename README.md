@@ -1,4 +1,6 @@
-### Olá! Eu Sou o Laroy, aspirante a programador 👋
+### Olá! Eu Sou o Laroy Prado 👋
+
+I'm a brazilian student, studiyng database at [Fatec São José Dos Campos](https://fatecsjc-prd.azurewebsites.net/)
 
 <div align="center">
   <a href="https://github.com/laroyprado">
