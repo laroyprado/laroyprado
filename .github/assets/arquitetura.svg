@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Arquitetura de sistema crítico de tempo real">
+  <rect width="1000" height="300" fill="#0b0f14"/>
+  <text x="24" y="36" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#6b8a99">// arquitetura que já operei: tempo real, sem parada</text>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#22d3ee"/></marker>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#f43f8e"/></marker>
+  </defs>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15" text-anchor="middle">
+    <!-- nos -->
+    <g><path d="M30 110H200V176H30Z" fill="#0f1720" stroke="#22d3ee" stroke-width="2"/><text x="115" y="136" fill="#e8f4f8" font-weight="700">equipamento</text><text x="115" y="158" fill="#6b8a99" font-size="13">pista · sensores</text></g>
+    <g><path d="M300 110H490V176H300Z" fill="#0f1720" stroke="#22d3ee" stroke-width="2"/><text x="395" y="136" fill="#e8f4f8" font-weight="700">gateway</text><text x="395" y="158" fill="#6b8a99" font-size="13">Java · JMS · Python</text></g>
+    <g><path d="M590 90H800V196H590Z" fill="#0f1720" stroke="#22d3ee" stroke-width="2"/><text x="695" y="124" fill="#e8f4f8" font-weight="700">núcleo</text><text x="695" y="146" fill="#22d3ee">C++ · tempo real</text><text x="695" y="170" fill="#6b8a99" font-size="13">regras · cobrança</text></g>
+    <g><path d="M880 110H980V176H880Z" fill="#0f1720" stroke="#22d3ee" stroke-width="2"/><text x="930" y="148" fill="#e8f4f8" font-weight="700">SQL</text></g>
+    <!-- externos -->
+    <g><path d="M200 224H370V270H200Z" fill="#0f1720" stroke="#f43f8e" stroke-width="2"/><text x="285" y="253" fill="#e8f4f8">operadoras de tag</text></g>
+    <g><path d="M420 224H590V270H420Z" fill="#0f1720" stroke="#f43f8e" stroke-width="2"/><text x="505" y="253" fill="#e8f4f8">SEFAZ · MDF-e</text></g>
+    <g><path d="M300 52H490V84H300Z" fill="none" stroke="#1d3a44" stroke-width="1"/><text x="395" y="73" fill="#4b6573" font-size="13">mensageria assíncrona</text></g>
+  </g>
+  <!-- setas -->
+  <g fill="none" stroke-width="2" stroke-dasharray="8 6">
+    <path d="M200 143H298" stroke="#22d3ee" marker-end="url(#a)"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path d="M490 143H588" stroke="#22d3ee" marker-end="url(#a)"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path d="M800 143H878" stroke="#22d3ee" marker-end="url(#a)"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path d="M340 176V222" stroke="#f43f8e" marker-end="url(#b)"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path d="M450 176V222" stroke="#f43f8e" marker-end="url(#b)"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+  </g>
+</svg>

@@ -1,47 +1,118 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6FA88C,50:8FBFA8,100:E8C988&height=200&section=header&text=Laroy%20Prado&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Embedded%20Software%20Developer%20%7C%20C%2FC%2B%2B%20%C2%B7%20ESP32%20%C2%B7%20TI%20C2000%20%C2%B7%20Sistemas%20Industriais&descAlignY=58&descSize=16&animation=fadeIn"/>
-
-<a href="https://www.linkedin.com/in/laroyprado/"><img src="https://img.shields.io/badge/-LinkedIn-6FA88C?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:laroyprado@gmail.com"><img src="https://img.shields.io/badge/-Gmail-E8965A?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/-S%C3%A3o%20Jos%C3%A9%20dos%20Campos%2C%20BR-8FBFA8?style=for-the-badge&logo=googlemaps&logoColor=white"/>
-
+  <img src="./.github/assets/banner.svg" alt="Laroy Prado, engenheiro de software" width="100%"/>
 </div>
 
 <br>
 
-```
-░░  sobre mim
+<div align="center">
+  <img src="./.github/assets/terminal.svg" alt="terminal com stack e status" width="100%"/>
+</div>
+
+```text
+$ cat perfil.txt
+
+nome      : Laroy Prado
+função    : Engenheiro de Software
+local     : São José dos Campos, SP (Brasil)
+foco      : sistemas de tempo real, firmware, integrações, IA aplicada
+formação  : MBA em Internet das Coisas (UTFPR) · Eng. de Computação (Univesp) · Tecnólogo em Banco de Dados (Fatec)
+modo      : remoto, CLT ou PJ
+status    : disponível para vagas e projetos
 ```
 
-**Embedded Software Engineer** na [Omega7 Systems](#), desde 2024, desenvolvendo firmware e
-software embarcado em **C/C++** para sistemas industriais — incluindo controle de pedágio,
-IoT e automação. Trabalho diretamente com **ESP32**, **Arduino** e **TI C2000 LaunchPad**,
-da integração de hardware até comunicação entre APIs, testes e otimização de desempenho.
+## > sobre
 
-Cursando **Engenharia de Computação** (Univesp) e formado em **Banco de Dados** (FATEC-SJC),
-hoje migrando o foco acadêmico para reforçar a base de engenharia embarcada.
+Trabalho com software que não pode parar: sistemas de tempo real em C++, gateways de integração com mensageria, firmware para equipamentos industriais e plataformas web com IA. Gosto de problemas em que um erro tem custo real e de entregar do requisito à implantação.
+
+## > stack
+
+<div align="center">
+  <img src="./.github/assets/stack.svg" alt="stack por camada" width="100%"/>
+</div>
+
+## > arquitetura que já operei
+
+<div align="center">
+  <img src="./.github/assets/arquitetura.svg" alt="equipamento, gateway, núcleo em C++ e banco de dados" width="100%"/>
+</div>
+
+<details>
+<summary><b>como funciona</b></summary>
 
 <br>
 
+- **equipamento**: sensores e pistas enviam eventos em tempo real.
+- **gateway**: serviços em Java (mensageria JMS) e Python recebem os eventos, validam e encaminham, inclusive para operadoras de tag e para a SEFAZ (validação do MDF-e pela placa).
+- **núcleo em C++**: aplica as regras e a cobrança, com a exigência de não parar.
+- **banco de dados**: registro de tudo o que acontece, com carga e ajustes na implantação.
+
+</details>
+
+## > o que já entreguei
+
+<details open>
+<summary><b>sistemas críticos de tempo real</b></summary>
+
+<br>
+
+- Sustentação e evolução, em C++, de um sistema de arrecadação com mais de 20 anos, em operação em tempo real em várias praças do país.
+- Coordenação de uma implantação completa em um novo cliente: equipe, alinhamento com o cliente, desenvolvimento, banco de dados e infraestrutura.
+- Gateway em Java (JMS) para integração com operadoras de tag e gateway em Python para validar o MDF-e na SEFAZ.
+
+</details>
+
+<details>
+<summary><b>embarcados e firmware</b></summary>
+
+<br>
+
+- Módulo de segurança para empilhadeiras: firmware e aplicação desktop com Bluetooth, com cálculo de carga residual a partir de sensores.
+- Placa de entradas e saídas analógicas e digitais, entregue ao Canadá e avaliada com nota máxima.
+- Aquisitor via CAN bus para uma montadora e firmware de PLC em C.
+- Firmware em PIC32 de um equipamento de alto risco para saúde.
+
+</details>
+
+<details>
+<summary><b>web, nuvem e IA</b></summary>
+
+<br>
+
+- Plataforma web em TypeScript sobre Google Cloud e Terraform, com assistente de IA (LLM e RAG) e data lake em conformidade com a LGPD.
+- Agentes de IA para testes, pentest e resumo diário de entregas.
+- Agente de atendimento e vendas por WhatsApp com n8n, Python e Supabase, ligado aos anúncios para medir retorno.
+
+</details>
+
+## > linha do tempo
+
+<div align="center">
+  <img src="./.github/assets/carreira.svg" alt="linha do tempo" width="100%"/>
+</div>
+
+## > repositórios públicos
+
+| repositório | linguagem | sobre |
+|---|---|---|
+| [estudos_linguagem_c](https://github.com/laroyprado/estudos_linguagem_c) | C | estudos de C |
+| [vagas_web_scraping_gupy](https://github.com/laroyprado/vagas_web_scraping_gupy) | Python | coleta de vagas da Gupy |
+| [02-api-nodejs-rocketseat](https://github.com/laroyprado/02-api-nodejs-rocketseat) | TypeScript | API em Node.js |
+| [tdd-stack](https://github.com/laroyprado/tdd-stack) | Java | TDD |
+| [dscommerce](https://github.com/laroyprado/dscommerce) | Java | API de e-commerce |
+| [gestao_vagas](https://github.com/laroyprado/gestao_vagas) | Java | gestão de vagas |
+| [Projeto-API-Equipe-First](https://github.com/laroyprado/Projeto-API-Equipe-First) | Python | projeto integrador, 1º semestre de Banco de Dados |
+
+## > contato
+
+```text
+e-mail    laroyprado@gmail.com
+linkedin  linkedin.com/in/laroyprado
 ```
-░░  o que eu mexo
-```
 
-**Embarcado & Hardware**
-<br>
-<img src="https://img.shields.io/badge/C-6FA88C?style=for-the-badge&logo=c&logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-6FA88C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/ESP32-8FBFA8?style=for-the-badge&logo=espressif&logoColor=white"/>
-<img src="https://img.shields.io/badge/Arduino-8FBFA8?style=for-the-badge&logo=arduino&logoColor=white"/>
-<img src="https://img.shields.io/badge/TI%20C2000-8FBFA8?style=for-the-badge&logo=texasinstruments&logoColor=white"/>
-
-**Web & Dados**
-<br>
-<img src="https://img.shields.io/badge/Node.js-E8C988?style=for-the-badge&logo=node.js&logoColor=4a3f2c"/>
-<img src="https://img.shields.io/badge/Python-E8C988?style=for-the-badge&logo=python&logoColor=4a3f2c"/>
-<img src="https://img.shields.io/badge/Java-E8C988?style=for-the-badge&logo=openjdk&logoColor=4a3f2c"/>
-<img src="https://img.shields.io/badge/MySQL-E8C988?style=for-the-badge&logo=mysql&logoColor=4a3f2c"/>
-<img src="https://img.shields.io/badge/SQLite-E8C988?style=for-the-badge&logo=sqlite&logoColor=4a3f2c"/>
+[e-mail](mailto:laroyprado@gmail.com) · [linkedin](https://www.linkedin.com/in/laroyprado/)
 
 <br>
+
+<div align="center">
+  <img alt="atividade" src="https://github.com/laroyprado/laroyprado/blob/output/github-contribution-grid-snake.svg" width="100%"/>
+</div>

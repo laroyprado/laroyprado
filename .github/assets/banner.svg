@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Laroy Prado, engenheiro de software">
+  <rect width="1000" height="300" fill="#0b0f14"/>
+  <!-- grade discreta -->
+  <g stroke="#131b24" stroke-width="1">
+    <path d="M0 50H1000M0 100H1000M0 150H1000M0 200H1000M0 250H1000"/>
+    <path d="M100 0V300M200 0V300M300 0V300M400 0V300M500 0V300M600 0V300M700 0V300M800 0V300M900 0V300"/>
+  </g>
+  <!-- moldura com cantos cortados -->
+  <path d="M30 20H940L980 60V280H60L20 240V20Z" fill="none" stroke="#22d3ee" stroke-width="2"/>
+  <path d="M40 34H930L966 70V266H70L34 230V34Z" fill="none" stroke="#1d3a44" stroke-width="1"/>
+  <!-- marcas -->
+  <rect x="20" y="20" width="60" height="6" fill="#22d3ee"/>
+  <rect x="920" y="274" width="60" height="6" fill="#f43f8e"/>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="64" y="78" font-size="18" fill="#6b8a99">laroyprado@dev:~$ <tspan fill="#22d3ee">whoami</tspan></text>
+    <text x="64" y="150" font-size="64" font-weight="700" fill="#e8f4f8" letter-spacing="2">LAROY PRADO</text>
+    <text x="66" y="192" font-size="24" fill="#22d3ee">Engenheiro de Software</text>
+    <text x="66" y="226" font-size="18" fill="#9fb4bf">C/C++ · Java · Python · TypeScript · Firmware · IA aplicada</text>
+    <text x="66" y="258" font-size="16" fill="#f43f8e">status: disponível para vagas remotas e projetos</text>
+    <rect x="706" y="238" width="12" height="22" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <!-- detalhes tecnicos -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#4b6573">
+    <text x="780" y="78">CAN · SPI · BLE</text>
+    <text x="780" y="96">JMS · REST · SQL</text>
+    <text x="780" y="114">GCP · Terraform</text>
+    <text x="780" y="132">LLM · RAG · agentes</text>
+  </g>
+  <path d="M780 142H950" stroke="#1d3a44" stroke-width="1"/>
+  <g fill="#22d3ee"><rect x="780" y="150" width="8" height="8"/><rect x="796" y="150" width="8" height="8" fill="#f43f8e"/><rect x="812" y="150" width="8" height="8" fill="#1d3a44"/></g>
+</svg>

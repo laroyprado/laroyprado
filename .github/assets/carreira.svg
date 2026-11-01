@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Linha do tempo">
+  <rect width="1000" height="260" fill="#0b0f14"/>
+  <text x="24" y="36" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#6b8a99">// linha do tempo</text>
+  <path d="M40 130H960" stroke="#1d3a44" stroke-width="2"/>
+  <path d="M40 130H960" stroke="#22d3ee" stroke-width="2" stroke-dasharray="6 10"><animate attributeName="stroke-dashoffset" from="32" to="0" dur="2s" repeatCount="indefinite"/></path>
+  <g font-family="Consolas, 'Courier New', monospace" text-anchor="middle">
+    <g><rect x="94" y="122" width="16" height="16" fill="#0b0f14" stroke="#4b6573" stroke-width="2"/><text x="102" y="108" font-size="14" fill="#6b8a99">2015</text><text x="102" y="168" font-size="13" fill="#e8f4f8">técnico</text><text x="102" y="186" font-size="12" fill="#6b8a99">meio ambiente</text></g>
+    <g><rect x="262" y="122" width="16" height="16" fill="#0b0f14" stroke="#4b6573" stroke-width="2"/><text x="270" y="108" font-size="14" fill="#6b8a99">2019</text><text x="270" y="168" font-size="13" fill="#e8f4f8">tráfego pago</text><text x="270" y="186" font-size="12" fill="#6b8a99">dados e ROI</text></g>
+    <g><rect x="430" y="122" width="16" height="16" fill="#0b0f14" stroke="#22d3ee" stroke-width="2"/><text x="438" y="108" font-size="14" fill="#22d3ee">2022</text><text x="438" y="168" font-size="13" fill="#e8f4f8">Fatec</text><text x="438" y="186" font-size="12" fill="#6b8a99">banco de dados</text></g>
+    <g><rect x="598" y="122" width="16" height="16" fill="#0b0f14" stroke="#22d3ee" stroke-width="2"/><text x="606" y="108" font-size="14" fill="#22d3ee">2023</text><text x="606" y="168" font-size="13" fill="#e8f4f8">qualidade</text><text x="606" y="186" font-size="12" fill="#6b8a99">testes e Python</text></g>
+    <g><rect x="766" y="122" width="16" height="16" fill="#f43f8e"/><text x="774" y="108" font-size="14" fill="#f43f8e">2024</text><text x="774" y="168" font-size="13" fill="#e8f4f8">engenharia de software</text><text x="774" y="186" font-size="12" fill="#6b8a99">C++, Java, firmware</text></g>
+    <g><rect x="900" y="122" width="16" height="16" fill="#0b0f14" stroke="#f43f8e" stroke-width="2"/><text x="908" y="108" font-size="14" fill="#f43f8e">2026</text><text x="908" y="168" font-size="13" fill="#e8f4f8">MBA IoT</text><text x="908" y="186" font-size="12" fill="#6b8a99">+ Eng. Computação</text></g>
+  </g>
+</svg>
